@@ -1,5 +1,5 @@
 # From https://github.com/docker-library/postgres/blob/master/13/alpine/Dockerfile
-FROM postgres:14.6-alpine
+FROM postgres:15.1-alpine3.16
 
 RUN apk add --update --no-cache bash openssl shadow netcat-openbsd grep mawk
 
